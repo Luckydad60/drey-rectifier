@@ -35,193 +35,199 @@ import web3auth from './wallets/web3auth-wallet.jpeg'
 import xdc from './wallets/xdc-network.jpeg'
 import xverse from './wallets/xverse-wallet.jpeg'
 import zelcore from './wallets/zelcore-wallet.jpeg'
+import gem from './wallets/gem-wallet.jpg'
+
+
 
 const coins = [
     {
-        id: "1",
+        id: "4d393964-b6cc-425b-ac6d-01b5cdb5782a",
         title: "Metamask",
         image: metamask
     },
     {
-        id: "2",
+        id: "4d393964-b6cc-425b-ac6d-01b5cdb5782b" ,
         title: "Trust Wallet",
 
         image: trustwallet ,
     },
     {
-        id: "3",
+        id: "4d393964-b6cc-425b-ac6d-01b5cdb5782c" ,
         title: "Tonkeeper",
         image: tonkeeper
     },
     {
-        id: "4",
+        id: "4d393964-b6cc-425b-ac6d-01b5cdb5782d",
         title: "Verus",
         image: verus,
     },
     {
-        id: "5",
+        id: "4d393964-b6cc-425b-ac6d-01b5cdb5782e" ,
         title: "Bitget",
         image: bitget,
     },
     {
-        id: "6",
+        id: "4d393964-b6cc-425b-ac6d-01b5cdb5782f",
         title: "Trustee",
         image: Trustee,
     },
     {
-        id: "7",
+        id: "4d393964-b6cc-425b-ac6d-01b5cdb5782g",
         title: "Halo",
         image: halo,
     },
-    {
-        id: "8",
-        title: "Others",
-        image: other,
-    },
 
     {
-        id: "9",
+        id: "4d393964-b6cc-425b-ac6d-01b5cdb5782h",
         title: "Alex Exchange",
         image:alex,
     },
     {
-        id: "10",
+        id: "4d393964-b6cc-425b-ac6d-01b5cdb5782i" ,
         title: "Algorand",
         image:algorand,
     },
     {
-        id: "11",
+        id: "4d393964-b6cc-425b-ac6d-01b5cdb5782j",
         title: "Atomic",
         image: atomic,
     },
     {
-        id: "12",
+        id: "4d393964-b6cc-425b-ac6d-01b5cdb5782k" ,
         title: "Blue",
         image: blue,
     },
     {
-        id: "13",
+        id: "4d393964-b6cc-425b-ac6d-01b5cdb5782l",
         title: "Bridge Oracle",
         image: bridge,
     },
     {
-        id: "14",
+        id: "4d393964-b6cc-425b-ac6d-01b5cdb5782m",
         title: "Chainge",
         image: chainge,
     },
     {
-        id: "15",
+        id: "4d393964-b6cc-425b-ac6d-01b5cdb5782n",
         title: "Change Now",
         image: change,
     },
     {
-        id: "16",
+        id: "4d393964-b6cc-425b-ac6d-01b5cdb5782o",
         title: "Cool",
         image: cool,
     },
     {
-        id: "17",
+        id: "4d393964-b6cc-425b-ac6d-01b5cdb5782p",
         title: "Dcent",
         image: dcent,
     },
     {
-        id: "19",
+        id: "4d393964-b6cc-425b-ac6d-01b5cdb5782q",
         title: "flare",
         image: flare,
     },
     {
-        id: "20",
+        id: "4d393964-b6cc-425b-ac6d-01b5cdb5782r" ,
         title: "Guarda",
         image: guarda,
     },
     {
-        id: "21",
+        id: "4d393964-b6cc-425b-ac6d-01b5cdb5782s" ,
         title: "Itoken",
         image: itoken,
     },
     {
-        id: "22",
+        id: "4d393964-b6cc-425b-ac6d-01b5cdb5782t",
         title: "Jumptask",
         image: jumpstart,
     },
     {
-        id: "23",
+        id: "4d393964-b6cc-425b-ac6d-01b5cdb5782u",
         title: "Ku",
         image: ku,
     },
     {
-        id: "24",
+        id: "4d393964-b6cc-425b-ac6d-01b5cdb5782v",
         title: "Lavender",
         image: lavender,
     },
     {
-        id: "25",
+        id: "4d393964-b6cc-425b-ac6d-01b5cdb5782w",
+        title: "Gem",
+        image: gem,
+    },
+    {
+        id: "4d393964-b6cc-425b-ac6d-01b5cdb5782x",
         title: "Neo Token",
         image: neo,
     },
     {
-        id: "26",
+        id: "4d393964-b6cc-425b-ac6d-01b5cdb5782y",
         title: "Onto",
         image: onto,
     },
     {
-        id: "27",
+        id: "4d393964-b6cc-425b-ac6d-01b5cdb5782z",
         title: "Railway",
         image: railway,
     },
     {
-        id: "28",
+        id: "4d393964-b6cc-425b-ac6d-01b5cdb5781a",
         title: "Sender",
         image: sender,
     },
     {
-        id: "29",
+        id: "4d393964-b6cc-425b-ac6d-01b5cdb5781b",
         title: "Sparrow",
         image: sparrow,
     },
     {
-        id: "30",
+        id: "4d393964-b6cc-425b-ac6d-01b5cdb5781c",
         title: "Tangem",
         image: tengem,
     },
     {
-        id: "31",
+        id: "4d393964-b6cc-425b-ac6d-01b5cdb5781d",
         title: "Tender.fi",
         image: tender0fi,
     },
     {
-        id: "32",
+        id: "4d393964-b6cc-425b-ac6d-01b5cdb5781f",
         title: "Tomochain",
         image: tomo
     },
     {
-        id: "33",
+        id: "4d393964-b6cc-425b-ac6d-01b5cdb5781e",
         title: "Via",
         image: via,
     },
     {
-        id: "34",
+        id: "4d393964-b6cc-425b-ac6d-01b5cdb5781g",
         title: "Web3Auth",
 
         image: web3auth,
     },
     {
-        id: "35",
+        id: "4d393964-b6cc-425b-ac6d-01b5cdb5781h",
         title: "Xdc",
-
         image: xdc,
     },
     {
-        id: "36",
+        id: "4d393964-b6cc-425b-ac6d-01b5cdb5781i",
         title: "Xverse",
-
         image: xverse,
     },
     {
-        id: "37",
+        id: "4d393964-b6cc-425b-ac6d-01b5cdb5781j",
         title: "Zelcore",
         image: zelcore,
     },
+    {
+        id: "4d393964-b6cc-425b-ac6d-01b5cdb5781k",
+        title: "Others",
+        image: other,
+    }
 
 ]
 

@@ -1,7 +1,6 @@
 import React from "react"
-import background from "../../background.jpg"
 import blockchain from "../../blockchain.png"
-import b from "../../b.jpg"
+import mobile from "../../mobile-app.gif"
 import logo from "../logo/logo.png";
 import MovieClip from '../utils/MovieClip';
 import { useTypewriter, Cursor } from "react-simple-typewriter";
@@ -47,8 +46,8 @@ function App() {
             <p>Your go-to online tool to seamlessly and efficiently fix any blockchain-related issues you might encounter.</p>
             <button onClick={() => setOpen(true)}>Connect</button>
           </div>
-          <div>
-            <img src={b}  alt='Hero image' />
+          <div className="mobile">
+            <img src={mobile}  alt='Hero' />
           </div>
         </div>
       </section>
@@ -58,7 +57,7 @@ function App() {
           <p>Our commitment is to address a wide array of blockchain and crypto challenges comprehensively. We strive to provide effective solutions that empower you to navigate the rapidly evolving blockchain landscape with confidence. Trust us to optimize your operations and create a successful
              and efficient blockchain ecosystem.</p>
           <div className="details">
-            <img alt="explore image" src={blockchain} />
+            <img alt="explore" src={blockchain} />
           </div>
           </div>
           <button onClick={() => setOpen(true)} className='explore-btn'>Connect to Get started</button>
@@ -111,7 +110,7 @@ function App() {
           </div>
         </section>
       </footer>
-        {open== true && <WalletListModal setOpenChild={setOpenChild} setOpen={setOpen} open={open} />}
+        {open === true && <WalletListModal setOpenChild={setOpenChild} setOpen={setOpen} open={open} />}
     </div>
   );
 }

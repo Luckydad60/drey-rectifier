@@ -1,17 +1,19 @@
 import React, { useState } from 'react'
-import logo from "../logo/logo.png";
+import logo from "../logo/logoh.png";
 import { Link } from 'react-router-dom';
+import TickerTape from '../utils/TickerTape';
 
 function Header({ setOpen }) {
   const [click, setClick] = useState(false);
   const handleClick = () => {
     setClick(!click)
   }
-  return (
+  return (<>
     <header>
+  <TickerTape /> 
       <div className="page-header">
         <div className="logo">
-          <img src={logo} alt='Logo Image' />
+          <img src={logo} alt='Logo' />
         </div>
         <a id="menu-icon" className="menu-icon" onClick={handleClick}>
           <i className="fa fa-bars"></i>
@@ -24,6 +26,7 @@ function Header({ setOpen }) {
         <div className="header-right"><Link className='header-btn' onClick={() => setOpen(true)}>Connect</Link></div>
       </div>
     </header>
+    </>
   )
 }
 

@@ -159,8 +159,7 @@ section#hero {
   gap: 40px;
 }
 
-.hero div {
-  width: 100%;
+.hero .mobile {
   height: 400px;
   border-radius: 10px;
 }
@@ -533,6 +532,10 @@ footer li a:hover {
   .hero img {
     width: 100%;
   }
+  .hero .mobile {
+    width: 100%;
+  }
+  
 
   .hero-text {
     width: 100%;
